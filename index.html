@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Password Generator by erocode97</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Password Generator</h1>
+        <h3 class="password-display" id="passwordDisplay">password</h3>
+        <form id="passwordGeneratorForm"  class="form">
+            <label for="characterAmountNumber">Numbers or Characters</label>
+            <div class="character-amount-container">
+                <input type="range" min="1" max="50" id="characterAmountRange" value="10">
+            <input class="number-input" type="number"  min="1" max="50"  id="characterAmountNumber" value="10">
+            </div>
+            
+
+
+            <label for="">Include Uppercase</label>
+            <input type="checkbox" id="includeUppercase">
+
+
+            <label for="includeNumbers">Include Numbers</label>
+            <input type="checkbox" id="includeNumbers">
+
+
+            <label for="includeSymbols">Include Symbols</label>
+            <input type="checkbox" id="includeSymbols">
+
+
+            <button class="btn" type="submit">Generate Password</button>
+        </form>
+    </div>
+    <footer>
+		<b>erocode97</b>
+		<p><a href="https://github.com/erocode97">GitHub</a> | <a href="https://www.linkedin.com/in/erocode97/">LinkedIn</a></p>
+	</footer>
+</body>
+</html>
